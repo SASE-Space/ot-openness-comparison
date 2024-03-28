@@ -18,7 +18,7 @@ sort: score, alphabetical
 | Siemens S7            |                |                   |           |                       |         |                           |               |                    | 0     |
 | Siemens PCS7          |                |                   |           |                       |         |                           |               |                    | 0     |
 | Siemens PCS7 NEO      |                |                   |           |                       |         |                           |               |                    | 0     |
-| B&R Automation Studio |                |                   |           |                       |         |                           |               |                    | 0     |
+| B&R Automation Studio | YES           |  YES           |           |                       |         |                           |  YES       |                    | 3     |
 | B&R Aprol             |                |                   |           |                       |         |                           |               |                    | 0     |
 | ...                   |                |                   |           |                       |         |                           |               |                    | 0     |
 
