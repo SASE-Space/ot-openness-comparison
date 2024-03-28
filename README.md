@@ -9,8 +9,9 @@ sort: score, alphabetical
 
 | system                | plain text [1] | open download [2] | Linux [3] | testing framework [4] | cli [5] | transparent licensing [6] | open docs [7] | HW independent [8] | score |
 | --------------------- | -------------- | ----------------- | --------- | --------------------- | ------- | ------------------------- | ------------- | ------------------ | ----- |
+| B&R Automation Studio | YES            | YES               |           | YES                   |         |                           | YES           |                    | 4     |
 | Siemens AX            | YES            |                   |           | YES                   | YES     |                           |               |                    | 3     |
-| Beckhoff TwinCAT 3    |                | YES               |           | YES                   |         |                           |               |                    | 2     |
+| Beckhoff TwinCAT 3    |                | YES               |           | YES                   |         |                           | YES           |                    | 3     |
 | Codesys Go            | YES            |                   |           |                       |         |                           |               | YES                | 2     |
 | Siemens TIA           |                | ?                 |           | YES                   |         |                           |               |                    | 1     |
 | Codesys               | ?              |                   |           |                       |         |                           |               | YES                | 1     |
@@ -18,7 +19,6 @@ sort: score, alphabetical
 | Siemens S7            |                |                   |           |                       |         |                           |               |                    | 0     |
 | Siemens PCS7          |                |                   |           |                       |         |                           |               |                    | 0     |
 | Siemens PCS7 NEO      |                |                   |           |                       |         |                           |               |                    | 0     |
-| B&R Automation Studio | YES           |  YES           |           |  YES               |         |                           |  YES       |                    | 4     |
 | B&R Aprol             |                |                   |           |                       |         |                           |               |                    | 0     |
 | ...                   |                |                   |           |                       |         |                           |               |                    | 0     |
 
