@@ -5,14 +5,14 @@
 draft version (table not correct) - for initial feedback  
 sort: score, alphabetical
 
-| System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]     | Testing Framework [e] | CLI/API [f]          | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
+| System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]     | Testing Framework [e] | CLI [f]          | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
 | --------------------- | ---------------- | ----------------- | --------------------------- |-------------- | --------------------- | ---------------- | ------------------------- | ---------------- | ------------------ | ----- |
-| Beckhoff TwinCAT 3    |:x:               |:heavy_check_mark: |:grey_question:              |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:  | 4     |
+| Beckhoff TwinCAT 3    |:x:               |:heavy_check_mark: |:grey_question:              |:grey_question:|:heavy_check_mark:     |:x:[1]   |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:  | 4     |
 | B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:heavy_check_mark:|:grey_question:     | 3     |
 | Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:|:grey_question:            |:x:               |:x:                 | 3     |
 | Codesys               |:grey_question:   |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:grey_question:   |:heavy_check_mark:  | 2     |
 | Codesys Go            |:heavy_check_mark:|:grey_question:    |:grey_question:              |:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:grey_question:   |:heavy_check_mark:  | 2     |
-| Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:               | :x:                       |:x:               |:x:                 | 2     |
+| Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:|:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                 | 2     |
 | Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:grey_question:   |:heavy_check_mark:  | 1     |
 | B&R Aprol             | :grey_question:  | :x:               |:grey_question:              |:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:grey_question:   |:x:                 | 0     |
 | Siemens PCS7          |:x:               | :x:               |:x:                          |:x:            |:x:                    |:x:               |:x:                        |:x:               |:x:                 | 0     |
@@ -20,7 +20,7 @@ sort: score, alphabetical
 | Siemens S7            |:x:               | :x:               |:x:                          |:x:            |:x:                    |:x:               |:x:                        |:x:               |:x:                 | 0     |
 | ...                   |                  |                   |                             |               |                       |                  |                           |                  |                    | 0     |
 
-
+[1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 
 ## HMI/SCADA Systems
 
@@ -53,9 +53,9 @@ Linux is extensively used in server environments and is a popular choice for run
 
 Without testing frameworks all code needs to be tested manually. The available testing frameworks should be able to test the IEC 61131 / IEC 61499 code.
 
-### CLI Tooling or API [f]
+### CLI Tooling [f]
 
-CLI tooling or APIs for the IDE allow all compilation, build and deployment workflows to be automated
+CLI tooling or the IDE allow all compilation, build and deployment workflows to be automated
 
 ### Transparent licensing [g]
 
@@ -77,7 +77,7 @@ in alphabetical order
 ### ABB B&R
 ...
 
-### Beckhoff Automation
+### Beckhoff Automation TwinCAT 3
 
 #### DevOps Integration Notes
 
@@ -115,8 +115,11 @@ Beckhoff provides a variety of simulation tools, from simple methods including r
 ### Siemens Simatic AX
 ...
 
-### Siemens TIA
-...
+### Siemens TIA Portal
+
+#### DevOps Integration Notes
+
+Siemens TIA Portal supports some DevOps workflows via the [Openness API](https://support.industry.siemens.com/cs/document/109792902/tia-portal-openness-automation-of-engineering-workflows?dti=0&lc=en-WW).
 
 ### Siemens PCS7 NEO
 ...
