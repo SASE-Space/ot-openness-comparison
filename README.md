@@ -7,23 +7,29 @@ sort: score, alphabetical
 
 | System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
 | --------------------- | ---------------- | ----------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | ----- |
-| Codesys V3.5          |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark:        | 7     |
+| Codesys V3.5          |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark: [4]    | 7     |
 | Codesys Go            |:heavy_check_mark:|:grey_question:    |:heavy_check_mark: :moneybag:|:heavy_check_mark:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:grey_question:   |:heavy_check_mark:        | 6     |
-| Beckhoff TwinCAT 3    |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 5     |
+| Beckhoff TwinCAT 3    |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark: [4]    | 5     |
 | Bosch Rexroth CtrlX   |:grey_question:   |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 5     |
 | B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           | 4     |
 | Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 3     |
 | Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       | 2     |
-| Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark:        | 1     |
+|Phoenix Contact PLCNext|:x:               | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
+| Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
 | B&R Aprol             | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 0     |
+| Rockwell PlantPAX     |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
+| Rockwell Studio 5000  |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Siemens PCS7          |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
-| Siemens PCS7 NEO      |:x:               | :x:               |:x:                          |:x:               |:x:                    |:grey_question:      |:x:                        |:x:               |:x:                       | 0     |
+| Siemens PCS7 NEO      |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Siemens S7            |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
-| ...                   |                  |                   |                             |                  |                       |                     |                           |                  |                          | 0     |
+
+
+
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
-[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...) 
+[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...)   
+[4] Will be able to run on Open Process Automation Compute DCN
 
 ## HMI/SCADA Systems
 
