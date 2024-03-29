@@ -72,14 +72,30 @@ Open accessible documentation not locked away behind a login helps to better und
 
 in alphabetical order
 
-### Siemens S7
-...
+### ABB B&R
 
-### Siemens TIA
+### Beckhoff Automation
 
-### Siemens AX
+#### DevOps Integration Notes
 
-### Siemens PCS7 NEO
+Beckhoff supports DevOps workflows via the [TwinCAT 3 Automation Interface](https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_automationinterface/242682763.html&id=). The Automation Interface enables programmatic access to most actions that can be performed via the TwinCAT 3 IDE, however it uses the Visual Studio DTE (Development Tools Environment) which requires a full IDE installation and hampers full headless operation or usage within a containerized environment. 
+
+Other notes:
+- Depends on COM
+- Requires trial license generation for deployment, which cannot be automated (does not apply if the target system is already licensed)
+- Can be easily integrated into PowerShell scripts and .NET applications
+- Example code is available at https://github.com/Beckhoff/TC_AI_DOTNET_Samples
+
+For automatic deployment and configuration of target platforms, Beckhoff's Windows based platforms support a variety of command line actions for configuration, some of which are demoed at https://github.com/Beckhoff-USA-Community/AutoDeployPCviaScript-main. In TwinCAT 4026, there will also be a chocolatey based package server. For BSD, Beckhoff provides a [package server](https://infosys.beckhoff.com/english.php?content=../content/1033/twincat_bsd/7669840651.html&id=3358471846380427993).
+
+#### Static Analysis, Unit Testing and Simulation
+
+Beckhoff provides [Static Analysis](https://www.beckhoff.com/en-us/products/automation/twincat/texxxx-twincat-3-engineering/te1200.html) which can perform basic checks for free or more extensive checks of the application for a fee. Static Analysis in TwinCAT 3 is relatively new and user experience may vary. The requirement to have a license on the development system also makes integration into a CI/CD pipeline difficult since it may not be easy or even possible to attach a USB device to a VM and may not be desireable to permanently assign a license to a ephemeral build environment.
+
+Beckhoff does not officially support any Unit Testing methods, however extensive community effort has gone into the free and open source [TcUnit](https://tcunit.org/), developed and maintained by Jakob Sagatowski.
+
+Beckhoff provides a variety of simulation tools, from simple methods including running the PLC locally on the developer's system without hardware to more extensive simulation of EtherCAT devices or via Simulink and other integrations.
+
 
 ### Codesys
 
@@ -87,7 +103,18 @@ in alphabetical order
 
 ### Codesys Go
 
+### Omron Sysmac Studio
+
+### Siemens Simatic S7
+
+### Siemens Simatic AX
+
+### Siemens TIA
+
+### Siemens PCS7 NEO
+
 ### Schneider EAE
+
 
 
 
