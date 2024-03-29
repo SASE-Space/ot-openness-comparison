@@ -9,8 +9,8 @@ sort: score, alphabetical
 
 | system                | plain text [1] | open download [2] | Linux [3] | testing framework [4] | cli [5] | transparent licensing [6] | open docs [7] | HW independent [8] | score |
 | --------------------- | -------------- | ----------------- | --------- | --------------------- | ------- | ------------------------- | ------------- | ------------------ | ----- |
+| Beckhoff TwinCAT 3    |                | YES               |           | YES                   |         |                           | YES           | YES                | 4     |
 | Siemens AX            | YES            |                   |           | YES                   | YES     |                           |               |                    | 3     |
-| Beckhoff TwinCAT 3    |                | YES               |           | YES                   |         |                           |               |                    | 2     |
 | Codesys Go            | YES            |                   |           |                       |         |                           |               | YES                | 2     |
 | Siemens TIA           |                | ?                 |           | YES                   |         |                           |               |                    | 1     |
 | Codesys               | ?              |                   |           |                       |         |                           |               | YES                | 1     |
