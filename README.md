@@ -7,7 +7,7 @@ sort: score, alphabetical
 
 | System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]     | Testing Framework [e] | CLI [f]          | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
 | --------------------- | ---------------- | ----------------- | --------------------------- |-------------- | --------------------- | ---------------- | ------------------------- | ---------------- | ------------------ | ----- |
-| Beckhoff TwinCAT 3    |:x:               |:heavy_check_mark: |:grey_question:              |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:[1]|:grey_question:            |:heavy_check_mark:|:heavy_check_mark:  | 4     |
+| Beckhoff TwinCAT 3    |:x:               |:heavy_check_mark: |:grey_question:              |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:[1]|:grey_question:         |:heavy_check_mark:|:heavy_check_mark:  | 5     |
 | B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:heavy_check_mark:|:grey_question:     | 3     |
 | Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:|:heavy_check_mark:     |:heavy_check_mark:|:grey_question:            |:x:               |:x:                 | 3     |
 | Codesys               |:grey_question:   |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:grey_question:|:grey_question:        |:grey_question:   |:grey_question:            |:grey_question:   |:heavy_check_mark:  | 2     |
