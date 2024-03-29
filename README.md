@@ -22,7 +22,7 @@ sort: score, alphabetical
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
-[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessaryily diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...) 
+[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...) 
 
 ## HMI/SCADA Systems
 
