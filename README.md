@@ -8,9 +8,9 @@ sort: score, alphabetical
 | System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
 | --------------------- | ---------------- | ----------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | ----- |
 | Codesys V3.5          |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark:        | 7     |
+| Beckhoff TwinCAT 3    |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 5     |
 | Bosch Rexroth CtrlX   |:grey_question:   |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 5     |
 | B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           | 4     |
-| Beckhoff TwinCAT 3    |:x:               |:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 4     |
 | Codesys Go            |:heavy_check_mark:|:grey_question:    |:grey_question:              |:heavy_check_mark:|:heavy_check_mark:     |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark:        | 4     |
 | Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 3     |
 | Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       | 2     |
@@ -23,6 +23,7 @@ sort: score, alphabetical
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
+[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...) 
 
 ## HMI/SCADA Systems
 
