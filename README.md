@@ -17,9 +17,9 @@ sort: score, alphabetical
 |Phoenix Contact PLCNext|:x:               | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
 | Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
 | B&R Aprol             | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 0     |
-| Rockwell PlantPAX     |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Emerson DeltaV        |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
-| Rockwell Studio 5000  |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
+| Rockwell Studio 5000  |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 0     |
+| Rockwell PlantPAX     |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 0     |
 | Siemens PCS7          |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Siemens PCS7 NEO      |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Siemens S7            |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
@@ -118,6 +118,17 @@ Beckhoff provides a variety of simulation tools, from simple methods including r
 
 ### Omron Sysmac Studio
 ...
+
+## Rockwell Studio 5000
+
+In 2023, Rockwell Automation has released the Studio 5000 Logix Designer SDK, or Software Development Kit to automate UI functions of Studio 5000 Logix Designer:  
+https://www.rockwellautomation.com/en-us/company/news/blogs/logix-designer-sdk-sme.html  
+https://www.kb-controls.io/posts/how-to-automate-your-engineering-processes-with-the-studio-5000-logix-designer-sdk  
+
+This can be integrated with their controller emulation software:  
+https://www.rockwellautomation.com/en-us/products/software/factorytalk/designsuite/logix-echo.html
+
+## Rockwell PlantPAX
 
 ### Siemens Simatic S7
 ...
