@@ -5,24 +5,38 @@
 draft version (table not correct) - for initial feedback  
 sort: score, alphabetical
 
-| System                | Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | Score |
-| --------------------- | ---------------- | ----------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | ----- |
-| Codesys V3.5          |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark:        | 7     |
-| Beckhoff TwinCAT 3    |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        | 5     |
-| B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           | 4     |
-| Codesys Go            |:heavy_check_mark:|:grey_question:    |:grey_question:              |:heavy_check_mark:|:heavy_check_mark:     |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark:        | 4     |
-| Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 3     |
-| Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       | 2     |
-| Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark:        | 1     |
-| B&R Aprol             | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 0     |
-| Siemens PCS7          |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
-| Siemens PCS7 NEO      |:x:               | :x:               |:x:                          |:x:               |:x:                    |:grey_question:      |:x:                        |:x:               |:x:                       | 0     |
-| Siemens S7            |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
-| ...                   |                  |                   |                             |                  |                       |                     |                           |                  |                          | 0     |
+| System                |Score| Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | 
+| --------------------- | --- | ---------------- | ----------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | 
+|Codesys V3.5           | 7   |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark: [4]    | 
+|Codesys Go             | 6   |:heavy_check_mark:|:grey_question:    |:heavy_check_mark: :moneybag:|:heavy_check_mark:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:grey_question:   |:heavy_check_mark:        |
+|Beckhoff TwinCAT 3     | 5   |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark: [4]    |
+|Bosch Rexroth CtrlX    | 4   |:grey_question:   |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        |
+|B&R Automation Studio  | 3   |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           |
+|Siemens AX             | 2   |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 
+|Siemens TIA            | 1   |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       |
+|ABB AC500 [5]          | 1   |:x:               | :heavy_check_mark:|:grey_question:              |:x:               |:grey_question:        |:grey_question:      |:x:                        |:grey_question:   |:x:                       | 
+|Phoenix Contact PLCNext| 1   |:x:               | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
+|Schneider EAE          | 1   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
+|ABB 800xA              | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|ABB Freelance          | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
+|B&R Aprol              | 0   | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 
+|Emerson DeltaV         | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell ControlEdge  | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell Experion PKS | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Rockwell Studio 5000   | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 
+|Rockwell PlantPAX      | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       |
+|Schneider Foxboro      | 0   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
+|Schneider ProWORX 32   | 0   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
+|Siemens PCS7           | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
+|Siemens PCS7 NEO       | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Siemens S7             | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Yokogawa Centum VP     | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
-[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...) 
+[3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...)   
+[4] Will be able to run on Open Process Automation Compute DCN  
+[5] IDE based on Codesys
 
 ## HMI/SCADA Systems
 
@@ -123,6 +137,17 @@ With the above tools it is possible to use Frameworks like in IT-space also for 
 ### Omron Sysmac Studio
 ...
 
+## Rockwell Studio 5000
+
+In 2023, Rockwell Automation has released the Studio 5000 Logix Designer SDK, or Software Development Kit to automate UI functions of Studio 5000 Logix Designer:  
+https://www.rockwellautomation.com/en-us/company/news/blogs/logix-designer-sdk-sme.html  
+https://www.kb-controls.io/posts/how-to-automate-your-engineering-processes-with-the-studio-5000-logix-designer-sdk  
+
+This can be integrated with their controller emulation software:  
+https://www.rockwellautomation.com/en-us/products/software/factorytalk/designsuite/logix-echo.html
+
+## Rockwell PlantPAX
+
 ### Siemens Simatic S7
 ...
 
@@ -153,7 +178,13 @@ Siemens TIA Portal supports some DevOps workflows via the [Openness API](https:/
 ### Siemens TIA
 ...
 
-
+### Bosch Rexroth CtrlX
+Bosch Rexroth is a long competitor of all previous mentioned vendors and they launched their new control platform about five years ago. This platform runs on Linux and the RealTime is enabled with Preempt-RT. It is a very powerful platform because of its open strategy on integrating different apps via snap package manager. Everyone can create snaps and integrate those as apps even for modular machine designs but also via an open app-store-like ctrlX-World platform. It is also possible to add Matlab snaps, HMI snaps, Node-Red, Codesys V3.5, CtrlX Plc and many more. Those snaps can interact via a powerful DataLayer which is similar to ADS from the TwinCAT world but more modern and with a RealTime capable fast lane. Bosch Rexroth also offers drives where the ctrlX Core can be directly integrated, which enables a machine manufacturer to build machines with a very small footprint.
+Their operating system CtrlX-OS is available for many different platforms. 
+- [Documentation](https://docs.automation.boschrexroth.com/welcome/) & [HowTos](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_How-to)
+- [Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store)
+- [Github](https://github.com/boschrexroth)
+more will be added soon...
 
 
 
