@@ -30,7 +30,7 @@ sort: score, alphabetical
 |Siemens PCS7           | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
 |Siemens PCS7 NEO       | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 |Siemens S7             | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-
+|Yokogawa Centum VP     | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
