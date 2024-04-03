@@ -170,9 +170,11 @@ Siemens TIA Portal supports some DevOps workflows via the [Openness API](https:/
 Bosch Rexroth is a long competitor of all previous mentioned vendors and they launched their new control platform about five years ago. This platform runs on Linux and the RealTime is enabled with Preempt-RT. It is a very powerful platform because of its open strategy on integrating different apps via snap package manager. Everyone can create snaps and integrate those as apps even for modular machine designs but also via an open app-store-like ctrlX-World platform. It is also possible to add Matlab snaps, HMI snaps, Node-Red, Codesys V3.5, CtrlX Plc and many more. Those snaps can interact via a powerful DataLayer which is similar to ADS from the TwinCAT world but more modern and with a RealTime capable fast lane. Bosch Rexroth also offers drives where the ctrlX Core can be directly integrated, which enables a machine manufacturer to build machines with a very small footprint.
 Their operating system CtrlX-OS is available for many different platforms. 
 - [Documentation](https://docs.automation.boschrexroth.com/welcome/) & [HowTos](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_How-to)
+- [First Steps](https://docs.automation.boschrexroth.com/doc/3459033454/ctrlx-automation-erste-schritte-quick-start-guide/latest/iv/)
+- [HowTo Video Collection](https://developer.community.boschrexroth.com/t5/Store-and-How-to/Collection-of-how-to-videos-blogs-and-examples-for-ctrlX/ba-p/12343)
+- [Community](https://developer.community.boschrexroth.com/t5/ctrlX-AUTOMATION-Community/ct-p/dcdev_community)
 - [Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store)
 - [Github](https://github.com/boschrexroth)
-more will be added soon...
 
 
 
