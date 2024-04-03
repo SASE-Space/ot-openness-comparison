@@ -21,14 +21,13 @@ sort: score, alphabetical
 |ABB Freelance          | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
 |B&R Aprol              | 0   | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 
 |Emerson DeltaV         | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell ControlEdge  | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell Experion PKS | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 |Rockwell Studio 5000   | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 
 |Rockwell PlantPAX      | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       |
 |Siemens PCS7           | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
 |Siemens PCS7 NEO       | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 |Siemens S7             | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-
-
-
 
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
