@@ -14,8 +14,11 @@ sort: score, alphabetical
 | B&R Automation Studio |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           | 4     |
 | Siemens AX            |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 3     |
 | Siemens TIA           |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       | 2     |
+| ABB AC500 [5]         |:x:               | :heavy_check_mark:|:grey_question:              |:x:               |:grey_question:        |:grey_question:      |:x:                        |:grey_question:   |:x:                       | 1     |
 |Phoenix Contact PLCNext|:x:               | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
 | Schneider EAE         |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 1     |
+| ABB 800xA             |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
+| ABB Freelance         |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | B&R Aprol             | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 0     |
 | Emerson DeltaV        |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 0     |
 | Rockwell Studio 5000  |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 0     |
@@ -27,10 +30,12 @@ sort: score, alphabetical
 
 
 
+
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
 [3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...)   
-[4] Will be able to run on Open Process Automation Compute DCN
+[4] Will be able to run on Open Process Automation Compute DCN  
+[5] IDE based on Codesys
 
 ## HMI/SCADA Systems
 
