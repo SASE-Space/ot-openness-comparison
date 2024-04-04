@@ -5,38 +5,40 @@
 draft version (table not correct) - for initial feedback  
 sort: score, alphabetical
 
-| System                |Score| Plain Text [a]   | Open Download [b] | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | 
-| --------------------- | --- | ---------------- | ----------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | 
-|Codesys V3.5           | 7   |:x:               |:heavy_check_mark: |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark: [4]    | 
-|Codesys Go             | 6   |:heavy_check_mark:|:grey_question:    |:heavy_check_mark: :moneybag:|:heavy_check_mark:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:grey_question:   |:heavy_check_mark:        |
-|Beckhoff TwinCAT 3     | 5   |:x: [3]           |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark: [4]    |
-|Bosch Rexroth CtrlX    | 4   |:grey_question:   |:heavy_check_mark: |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        |
-|B&R Automation Studio  | 3   |:heavy_check_mark:|:heavy_check_mark: |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           |
-|Siemens AX             | 2   |:heavy_check_mark:|:x:                |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 
-|Siemens TIA            | 1   |:x:               |:grey_question:    |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       |
-|ABB AC500 [5]          | 1   |:x:               | :heavy_check_mark:|:grey_question:              |:x:               |:grey_question:        |:grey_question:      |:x:                        |:grey_question:   |:x:                       | 
-|Phoenix Contact PLCNext| 1   |:x:               | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
-|Schneider EAE          | 1   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
-|ABB 800xA              | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|ABB Freelance          | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
-|B&R Aprol              | 0   | :grey_question:  | :x:               |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 
-|Emerson DeltaV         | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|Honeywell ControlEdge  | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|Honeywell Experion PKS | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|Rockwell Studio 5000   | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 
-|Rockwell PlantPAX      | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       |
-|Schneider Foxboro      | 0   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
-|Schneider ProWORX 32   | 0   |:grey_question:   | :grey_question:   |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
-|Siemens PCS7           | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
-|Siemens PCS7 NEO       | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|Siemens S7             | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
-|Yokogawa Centum VP     | 0   |:x:               | :x:               |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+| System                |Score| Plain Text [a]   | Open Download [b]   | Extensible IDE [c]          | Linux [d]        | Testing Framework [e] | CLI [f]             | Transparent Licensing [g] | Open Docs [h]    | Hardware Independent [i] | 
+| --------------------- | --- | ---------------- | ------------------- | --------------------------- |------------------| --------------------- | ------------------- | ------------------------- | ---------------- | ------------------------ | 
+|Codesys V3.5           | 7   |:x:               |:heavy_check_mark:   |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark: [4]    | 
+|Codesys Go             | 6   |:heavy_check_mark:|:grey_question:      |:heavy_check_mark: :moneybag:|:heavy_check_mark:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:grey_question:   |:heavy_check_mark:        |
+|Beckhoff TwinCAT 3     | 5   |:x: [3]           |:heavy_check_mark:   |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark: [4]    |
+|Arduino Pro            | 5   |:heavy_check_mark:|:heavy_check_mark:[6]|:grey_question:              |:grey_question:   |:grey_question:        |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:x:                       |
+|Bosch Rexroth CtrlX    | 4   |:grey_question:   |:heavy_check_mark:   |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        |
+|B&R Automation Studio  | 3   |:heavy_check_mark:|:heavy_check_mark:   |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           |
+|Siemens AX             | 2   |:heavy_check_mark:|:x:                  |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 
+|Siemens TIA            | 1   |:x:               |:grey_question:      |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               | :x:                       |:x:               |:x:                       |
+|ABB AC500 [5]          | 1   |:x:               | :heavy_check_mark:  |:grey_question:              |:x:               |:grey_question:        |:grey_question:      |:x:                        |:grey_question:   |:x:                       | 
+|Phoenix Contact PLCNext| 1   |:x:               | :grey_question:     |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
+|Schneider EAE          | 1   |:grey_question:   | :grey_question:     |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:heavy_check_mark: [4]    | 
+|ABB 800xA              | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|ABB Freelance          | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
+|B&R Aprol              | 0   | :grey_question:  | :x:                 |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:x:                       | 
+|Emerson DeltaV         | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell ControlEdge  | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Honeywell Experion PKS | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Rockwell Studio 5000   | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       | 
+|Rockwell PlantPAX      | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:[1]               |:x:                        |:x:               |:x:                       |
+|Schneider Foxboro      | 0   |:grey_question:   | :grey_question:     |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
+|Schneider ProWORX 32   | 0   |:grey_question:   | :grey_question:     |:grey_question:              |:grey_question:   |:grey_question:        |:grey_question:      |:grey_question:            |:grey_question:   |:grey_question:           | 
+|Siemens PCS7           | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       |
+|Siemens PCS7 NEO       | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Siemens S7             | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
+|Yokogawa Centum VP     | 0   |:x:               | :x:                 |:x:                          |:x:               |:x:                    |:x:                  |:x:                        |:x:               |:x:                       | 
 
 [1] Partially supported, by means of an API (application programming interface). See specific vendor notes below for more information.
 [2] Only runtime on Linux
 [3] TwinCAT stores files in XML format, which technically counts as plain text, but the source code is still cluttered by unnecessary tags and ids. This makes it diffcult to interact with non-proprietary tooling (source code editors, diff tools, ...)   
 [4] Will be able to run on Open Process Automation Compute DCN  
 [5] IDE based on Codesys
+[6] Very small fee to download IDE
 
 ## HMI/SCADA Systems
 
@@ -188,6 +190,10 @@ Their operating system CtrlX-OS is available for many different platforms.
 - [Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store)
 - [Github](https://github.com/boschrexroth)
 
+### Arduino Pro
+Arduino Pro is the professional platform for industrial use of Arduino components/control systems. A good introduction to Arduino pro is given by [Jakob Sagatowski here](https://www.youtube.com/watch?v=jSVzVAaLURM)
+- [Documentation](https://docs.arduino.cc/boards)
+- [Store](https://store.arduino.cc/pages/professional)
 
 
 
