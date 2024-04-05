@@ -67,7 +67,7 @@ Without testing frameworks all code needs to be tested manually. The available t
 
 ## CLI Tooling [f]
 
-CLI tooling or the IDE allow all compilation, build and deployment workflows to be automated
+CLI tooling allowing all compilation, build and deployment workflows to be automated. (If no CLI but possible to automate this through SDK/API on the IDE then add a footnote)
 
 ## Transparent licensing [g]
 
