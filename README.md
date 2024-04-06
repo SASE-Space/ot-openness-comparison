@@ -10,7 +10,7 @@ sort: score, alphabetical
 |Codesys V3.5           | 7   |:x:                  |:heavy_check_mark:   |:heavy_check_mark: :moneybag:|:x: [2]           |:heavy_check_mark:     |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark: [4]    | 
 |Codesys Go             | 6   |:heavy_check_mark:   |:grey_question:      |:heavy_check_mark: :moneybag:|:heavy_check_mark:|:heavy_check_mark:     |:heavy_check_mark:   |:grey_question:            |:grey_question:   |:heavy_check_mark:        |
 |Beckhoff TwinCAT 3     | 5   |:x: [3]              |:heavy_check_mark:   |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:[1]               |:grey_question:            |:heavy_check_mark:|:heavy_check_mark: [4]    |
-|Arduino Pro            | 5   |:heavy_check_mark:[6]|:heavy_check_mark:   |:grey_question:              |:grey_question:   |:grey_question:        |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:x:                       |
+|Arduino Pro            | 5   |:x: [6]              |:heavy_check_mark:   |:grey_question:              |:grey_question:   |:grey_question:        |:heavy_check_mark:   |:heavy_check_mark:         |:heavy_check_mark:|:x:                       |
 |Bosch Rexroth CtrlX    | 4   |:grey_question:      |:heavy_check_mark:   |:heavy_check_mark:           |:grey_question:   |:heavy_check_mark:     |:x:                  |:grey_question:            |:heavy_check_mark:|:heavy_check_mark:        |
 |B&R Automation Studio  | 3   |:heavy_check_mark:   |:heavy_check_mark:   |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:grey_question:      |:grey_question:            |:heavy_check_mark:|:grey_question:           |
 |Siemens AX             | 2   |:heavy_check_mark:   |:x:                  |:grey_question:              |:grey_question:   |:heavy_check_mark:     |:heavy_check_mark:   |:x:                        |:x:               |:x:                       | 
@@ -190,11 +190,13 @@ Their operating system CtrlX-OS is available for many different platforms.
 - [Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store)
 - [Github](https://github.com/boschrexroth)
 
-### [Arduino Pro](https://www.arduino.cc/pro/)
+### [Arduino Pro PLC](https://www.arduino.cc/pro/)
 Arduino Pro is the professional platform for industrial use of Arduino components/control systems. A good introduction to Arduino pro is given by [Jakob Sagatowski here](https://www.youtube.com/watch?v=jSVzVAaLURM)
+There are more IDEs for the Arduino Pro platform available, for this comparison we only refer to the Arduino Pro PLC Ide ([see](https://www.arduino.cc/pro/platform-software/)).
 - [Documentation](https://docs.arduino.cc/boards)
 - [Store](https://store.arduino.cc/pages/professional)
 - [Download](https://www.arduino.cc/en/software)
+- [Arduino CLI](https://github.com/arduino/arduino-cli)
 
 
 
