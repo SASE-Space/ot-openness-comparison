@@ -179,7 +179,7 @@ Siemens TIA Portal supports some DevOps workflows via the [Openness API](https:/
 ...
 
 ### Bosch Rexroth CtrlX
-Bosch Rexroth is a long competitor of all previous mentioned vendors and they launched their new control platform about five years ago. This platform runs on Linux and the RealTime is enabled with Preempt-RT. It is a very powerful platform because of its open strategy on integrating different apps via snap package manager. Everyone can create snaps and integrate those as apps even for modular machine designs but also via an open app-store-like ctrlX-World platform. It is also possible to add Matlab snaps, HMI snaps, Node-Red, Codesys V3.5, CtrlX Plc and many more. Those snaps can interact via a powerful DataLayer which is similar to ADS from the TwinCAT world but more modern and with a RealTime capable fast lane. Bosch Rexroth also offers drives where the ctrlX Core can be directly integrated, which enables a machine manufacturer to build machines with a very small footprint.
+Bosch Rexroth is a long competitor of all previous mentioned vendors and they launched their new control platform about five years ago. The platform allows for multiple applications to be developed and deployed via Bosch Application Store, CtrlX. The Operating System that CtrlX is built on is Ubuntu Core (18/20), therefore applications are packages as "snaps". Snaps main feature is there immutability and packaging is based on cgroups. Its possible for anyone to create a SNAP and integrate with the machine therefore offering flexibility to combine multiple applications such as Matlab snaps, HMI snaps, Node-Red, Codesys V3.5 etc. However for SNAPs to be secure they have to be signed which is only done by submitting the application to Ubuntu itself (therefore exposing your intellectual property). Those snaps can interact via a DataLayer which is similar to ADS from the TwinCAT world with a RealTime capable fast lane. Bosch Rexroth also offers drives where the ctrlX Core can be directly integrated, which enables a machine manufacturer to build machines with a very small footprint.
 Their operating system CtrlX-OS is available for many different platforms. 
 - [Documentation](https://docs.automation.boschrexroth.com/welcome/) & [HowTos](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_How-to)
 - [First Steps](https://docs.automation.boschrexroth.com/doc/361295008/first-steps/latest/en/)
@@ -187,7 +187,6 @@ Their operating system CtrlX-OS is available for many different platforms.
 - [Community](https://developer.community.boschrexroth.com/t5/ctrlX-AUTOMATION-Community/ct-p/dcdev_community)
 - [Store](https://developer.community.boschrexroth.com/t5/Store-and-How-to/bg-p/dcdev_community-dev-blog/label-name/rex_c_Store)
 - [Github](https://github.com/boschrexroth)
-
 
 
 
