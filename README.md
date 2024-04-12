@@ -135,7 +135,8 @@ Open accessible documentation not locked away behind a login helps to better und
 
 ### Open Docs  
 
-* Auatomation Studio locally installs B&R Help Explorer
+* [B&R Online Help](https://help.br-automation.com/#/en/4) - Conversational with website login
+* Auatomation Studio locally installs B&R Help Explorer. Press F1 to open.
 * [Academy and Free Tutorials](https://www.br-automation.com/en-us/academy/)
 
 ### CLI Tools  
