@@ -278,4 +278,35 @@ There are more IDEs for the Arduino Pro platform available, for this comparison 
 
 ## HMI/SCADA Systems
 
-...
+| System                                               | Score | Plain Text Source Files [a] | Open Download for IDE and Simulator [b] | Extensible IDE [c] | Linux Support [d]  | Testing Framework [e] | CLI [f]         | Transparent Licensing [g] | Open Docs [h]   | Hardware Agnostic [i]  | Responsive Design [k]            |
+|------------------------------------------------------|-------|-----------------------------|-----------------------------------------|--------------------|--------------------|-----------------------|-----------------|---------------------------|-----------------|------------------------|----------------------------------|
+| Ignition 8.3                                         | 7     | :heavy_check_mark:          | :heavy_check_mark:                      | :heavy_check_mark: | :heavy_check_mark: | :x:                   | :x:             | :heavy_check_mark:        | :grey_question: | :heavy_check_mark:     | :heavy_check_mark:               |
+| FactoryTalk Optix                                    | 6     | :heavy_check_mark:          | :heavy_check_mark:                      | :grey_question:    | :heavy_check_mark: | :x:                   | :grey_question: | :heavy_check_mark:        | :grey_question: | :heavy_check_mark:     | :heavy_check_mark:               |
+| Weintek EasyBuilder Pro                              | 3     | :x:                         | :heavy_check_mark:                      | :x:                | :x:                | :x:                   | :x:             | :heavy_check_mark:        | :grey_question: | :x:                    | :heavy_check_mark: <sup>[1]</sup>|
+| Keyence VT Studio                                    | 1     | :x:                         | :x:                                     | :x:                | :x:                | :x:                   | :x:             | :heavy_check_mark:        | :grey_question: | :x:                    | :x:                              |
+| Beckhoff TwinCAT HMI                                 | 0     | :grey_question:             | :grey_question:                         | :grey_question:    | :grey_question:    | :grey_question:       | :grey_question: | :grey_question:           | :grey_question: | :grey_question:        | :grey_question:                  |
+| FactoryTalk View Studio                              | 0     | :x:                         | :x:                                     | :x:                | :x:                | :x:                   | :x:             | :x:                       | :grey_question: | :x:                    | :x:                              |
+| Siemens WinCC Unified                                | 0     | :x:                         | :x:                                     | :x:                | :x:                | :x:                   | :x:             | :x:                       | :grey_question: | :x:                    | :x:                              |
+
+
+[1] Headless options only
+
+## Keyence VT Studio
+
+
+## Weintek EasyBuilder Pro
+
+
+## Ignition 8.3
+
+
+## Siemens WinCC Unified
+
+
+## FactoryTalk View Studio
+
+
+## FactoryTalk Optix
+
+
+## Beckhoff TwinCAT HMI
